@@ -94,9 +94,3 @@ The open source community thrives on contributions, making it an incredible spac
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
-
-## Contact
-
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white "My email ID")](mailto:rigvedrs@gmail.com)
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white "Visit my LinkedIn profile")](https://www.linkedin.com/in/rigvedrs/)

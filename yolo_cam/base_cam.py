@@ -80,6 +80,8 @@ class BaseCAM:
 #             target_categories = np.argmax(outputs[0].cpu().data.numpy(), axis=-1)
             if self.task == 'od':
                 target_categories = outputs[0].boxes.cls
+            elif self.task == "obb":
+                target_categories = outputs[0].obb.cls
             elif self.task == 'cls':
                 # Change
                 # target_categories = [np.argmax(outputs[0].probs.cpu().numpy())]

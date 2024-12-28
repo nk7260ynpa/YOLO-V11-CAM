@@ -73,24 +73,6 @@ The default task is 'od' so it is fine even if you don't specify the task then
 
 #### Check out the Jupyter Notebook titled YOLO v11n EigenCAM to understand it better and also handle any issues.
 
-## ToDo:
-
-See the [open issues](https://github.com/rigvedrs/Yolo-V8-CAM/issues) for a list of proposed features (and known issues).
-
-- [X] Solve the issue with having to re-run the cells
-- [X] Add support for segmentation model
-- [ ] Add support for pose detection model
-- [ ] Solve pending issues
-
-## Contributing
-
-The open source community thrives on contributions, making it an incredible space for learning, inspiration, and creativity. Please feel free to share any contributions you have for this project.
-
-- Create your Feature Branch (`git checkout -b feature/CoolFeature`)
-- Commit your Changes (`git commit -m 'Add some CoolFeature'`)
-- Push to the Branch (`git push origin feature/CoolFeature`)
-- Open a Pull Request
-
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.

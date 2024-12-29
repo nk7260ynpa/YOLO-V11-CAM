@@ -4,6 +4,11 @@ A package for applying EigenCAM and generating heatmaps for the new YOLO V11 mod
 
 The basic structure is close to [Jacob Gil&#39;s package for AI explainability](https://github.com/jacobgil/pytorch-grad-cam) and modified to be used for the YOLO V11 model.
 
+## Difference from Author's Package
+
+- [X] Add support for oriented bounding boxes model 
+- [ ] Add setup.py for build API
+
 ## Use Cases
 
 It can be used on YOLO V11 classification, segmentation and object detection models. It can also be used with the older models, where all you have to do is just pass the model and see it work automatically. Example notebook for V8 and V11 provided.
@@ -76,11 +81,6 @@ cam = EigenCAM(model, target_layers,task='od')
 The default task is 'od' so it is fine even if you don't specify the task then
 
 #### Check out the Jupyter Notebook titled YOLO v11n EigenCAM to understand it better and also handle any issues.
-
-## ToDo:
-
-- [X] Add support for oriented bounding boxes model 
-- [ ] Add setup.py for build API
 
 ## License
 

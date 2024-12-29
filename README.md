@@ -20,19 +20,23 @@ EigenCAM is a technique that involves computing the first principle component of
 
 #### GrayScale Heatmaps:
 
-| Object Detection         | Classification             | Segmentation               |
-| ------------------------ | -------------------------- | -------------------------- |
-| ![od3.png](images/od3.png) | ![cls3.png](images/cls3.png) | ![seg3.png](images/seg3.png) |
+| Object Detection         | Orinted Bounding Boxes | Classification             | Segmentation               |
+| ------------------------ | -------------------------- | -------------------------- | -------------------------- |
+| ![od3.png](images/od3.png) | ![obb3.png](images/obb3.png) | ![cls3.png](images/cls3.png) | ![seg3.png](images/seg3.png) |
 
 #### Combined
 
-| Object Detection         | Classification             | Segmentation               |
-| ------------------------ | -------------------------- | -------------------------- |
-| ![od1.png](images/od1.png) | ![cls1.png](images/cls1.png) | ![cls1.png](images/seg1.png) |
+| Object Detection         | Orinted Bounding Boxes | Classification             | Segmentation               |
+| ------------------------ | -------------------------- | -------------------------- | -------------------------- |
+| ![od1.png](images/od1.png) | ![obb1.png](images/obb1.png) | ![cls1.png](images/cls1.png) | ![cls1.png](images/seg1.png) |
 
 ### Object Detection model
 
 ![od2.png](images/od2.png)
+
+### Orinted Bounding Boxes model
+
+![obb2.png](images/obb2.png)
 
 ### Classification model
 
@@ -72,6 +76,11 @@ cam = EigenCAM(model, target_layers,task='od')
 The default task is 'od' so it is fine even if you don't specify the task then
 
 #### Check out the Jupyter Notebook titled YOLO v11n EigenCAM to understand it better and also handle any issues.
+
+## ToDo:
+
+- [X] Add support for oriented bounding boxes model 
+- [ ] Add setup.py for build API
 
 ## License
 
